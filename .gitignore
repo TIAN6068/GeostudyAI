@@ -1,0 +1,7 @@
+# WorkBuddy assistant data (personal memory / notes, not project code)
+.workbuddy/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
