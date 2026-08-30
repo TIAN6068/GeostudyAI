@@ -334,7 +334,7 @@ const CONFIG = {
     /* 实时 AI（DeepSeek）接入配置：密钥仅存于配套代理 mentor-proxy.js（服务端），前端不持有任何密钥 */
     deepseek: {
       enabled: true,
-      proxyUrl: "http://localhost:8787/api/deepseek",
+      proxyUrl: "/api/deepseek",
       model: "deepseek-v4-flash",
       baseUrl: "https://api.deepseek.com",
       direct: false

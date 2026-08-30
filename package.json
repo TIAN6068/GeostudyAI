@@ -2,12 +2,11 @@
   "name": "geostudyai",
   "version": "1.0.0",
   "private": true,
-  "description": "GeoStudy AI course mode — static front-end",
+  "description": "GeoStudy AI course mode — unified web server (static + DeepSeek proxy)",
+  "main": "mentor-proxy.js",
   "scripts": {
-    "start": "serve -s -l $PORT ."
-  },
-  "dependencies": {
-    "serve": "^14.2.4"
+    "start": "node mentor-proxy.js",
+    "dev": "node mentor-proxy.js"
   },
   "engines": {
     "node": ">=18"
